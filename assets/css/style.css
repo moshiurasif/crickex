@@ -1,0 +1,73 @@
+/* 
+  Template Name: 
+  Template URI: https://
+  Author Name: 
+  Author URI: https://
+  Version: 1.0.0
+  Description: This is
+  Tags: html, Css, Bootstrap
+*/
+
+/* Font Family */
+
+/* Default Css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+html{
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0;
+  margin: 0;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+p{}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  width: 100%;
+}
+
+/* start status-wrap css */
+.status-wrap {
+    border-bottom: 1px solid transparent;
+    background: #004f92;
+}
+.header-inner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.language{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.language-wrap img {
+    width: 1.4375rem;
+    height: auto;
+    margin: .1875rem .3125rem 0 0;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(9,13,26,.4);
+}
