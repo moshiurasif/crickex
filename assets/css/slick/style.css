@@ -1,0 +1,40 @@
+.carousel img {
+}
+.slick-dots {
+  position: absolute;
+  z-index: 3;
+  left: 90%;
+  top: 85%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  text-align: right;
+}
+
+.slick-dots li {
+  margin-left: 0.4375rem;
+}
+
+.slick-dots li a,
+.slick-dots li button {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  transition: box-shadow 0.5s ease-out 0.1s, background 0.3s ease-out 0.1s;
+  border: 0;
+  border-radius: 50%;
+  background: #004178;
+  box-shadow: inset 0 2px 3px 0#002645;
+  text-indent: 99999px;
+  cursor: pointer;
+}
+.slick-dots li a:hover,
+.slick-dots li button:hover {
+  transition: box-shadow 0.3s ease-in, background 0.3s ease-in 0.1s;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+.slick-active button,
+.slick-dots .flex-active,
+.slick-dots .slick-active button {
+  transition: box-shadow 0.3s ease-in, background 0.3s ease-in 0.1s;
+  background: #f2f2f2;
+}
