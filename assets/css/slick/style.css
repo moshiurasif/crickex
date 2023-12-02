@@ -1,4 +1,62 @@
-.carousel img {
+#slider-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: auto;
+}
+
+#image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+#image-slider img {
+  height: 480px;
+  object-fit: cover;
+}
+
+.slider-image {
+  width: 100%;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+#marquee-background {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 20px;
+  padding: 15px;
+  /* border-radius: 5px; */
+  background-color: rgba(
+    227,
+    227,
+    227,
+    0.7
+  ); /* Background color for the marquee background */
+  width: 100%;
+}
+
+#marquee-text {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 16px;
+  color: rgb(58, 58, 58);
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(100%, -50%);
+  }
+  100% {
+    transform: translate(-100%, -50%);
+  }
 }
 .slick-dots {
   position: absolute;
