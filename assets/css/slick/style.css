@@ -20,7 +20,17 @@
   flex: 0 0 auto;
   overflow: hidden;
 }
-
+#marquee-container {
+  position: relative;
+}
+.mr-sound {
+  width: 20px;
+  position: absolute;
+  bottom: 8%;
+  left: 2%;
+  background-color: transparent;
+  /* width: 100px; */
+}
 #marquee-background {
   position: absolute;
   bottom: 4%;
@@ -101,6 +111,10 @@
 .slider-section {
   background-color: #f2f2f2;
 }
+.slider-section img,
+.slider-section div {
+  border-radius: 5px;
+}
 .slider-section h3 {
   font-family: "Helvetica Neue", Helvetica, Tahoma, "PingFang SC",
     "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
@@ -118,13 +132,14 @@
 }
 .slick-prev,
 .slick-next {
-  background-color: #1faeff !important;
+  color: #1faeff !important;
+  height: 12px !important;
 }
 .slick-prev {
-  top: -5% !important;
-  left: 92% !important;
+  top: -7% !important;
+  left: 95% !important;
 }
 .slick-next {
-  top: -5% !important;
-  left: 96% !important;
+  top: -7% !important;
+  left: 97.5% !important;
 }

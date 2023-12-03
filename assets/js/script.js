@@ -12,9 +12,9 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         arrows:true,
         // prev arrow
-        prevArrow: '<button type="button" data-role="none" class="slick-prev">Previous</button>',
+        prevArrow: '<i class="fa-solid fa-arrow-left slick-prev"></i>',
 
         // next arrow
-        nextArrow: '<button type="button" data-role="none" class="slick-next">Next</button>',
+        nextArrow: '<i class="fa-solid fa-arrow-right slick-next"></i>',
     });
   });
