@@ -17,4 +17,4 @@ $(document).ready(function(){
         // next arrow
         nextArrow: '<i class="fa-solid fa-arrow-right slick-next"></i>',
     });
-  });
+});

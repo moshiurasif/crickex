@@ -18,15 +18,11 @@
   background: transparent;
 }
 body {
-<<<<<<< HEAD
-  font-family: "Material Icons";
   font-weight: 400;
   background-color: #ededed;
-=======
   font-size: 14px;
 	font-weight: 400;
   font-family: "Helvetica Neue",Helvetica,Tahoma,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif!important;
->>>>>>> d85e4af9106756994df84a8a9e15685e8fc2219b
 }
 html {
   overflow-x: hidden !important;
@@ -256,12 +252,8 @@ img {
 
 /* start footer main area 
 ********************************/
-<<<<<<< HEAD
-.footer_area {
-=======
 .footer_area{
   padding-bottom: 42px;
->>>>>>> d85e4af9106756994df84a8a9e15685e8fc2219b
   background: #e6e6e6;
 }
 .footer_wrap{
@@ -301,9 +293,6 @@ img {
 /* start footer partner wrap 
 *********************************/
 .footer_partner_wrap {
-<<<<<<< HEAD
-}
-=======
   border-top: 1px solid rgba(71,71,71,.1);
   padding-bottom: 28px;
 }
@@ -435,4 +424,3 @@ img {
   line-height: 20px;
   color: rgba(71,71,71,.9);
 }
->>>>>>> d85e4af9106756994df84a8a9e15685e8fc2219b
