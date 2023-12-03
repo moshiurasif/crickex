@@ -18,9 +18,15 @@
   background: transparent;
 }
 body {
+<<<<<<< HEAD
   font-family: "Material Icons";
   font-weight: 400;
   background-color: #ededed;
+=======
+  font-size: 14px;
+	font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Tahoma,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif!important;
+>>>>>>> d85e4af9106756994df84a8a9e15685e8fc2219b
 }
 html {
   overflow-x: hidden !important;
@@ -250,10 +256,17 @@ img {
 
 /* start footer main area 
 ********************************/
+<<<<<<< HEAD
 .footer_area {
+=======
+.footer_area{
+  padding-bottom: 42px;
+>>>>>>> d85e4af9106756994df84a8a9e15685e8fc2219b
   background: #e6e6e6;
 }
-
+.footer_wrap{
+  margin-bottom: 16px;
+}
 .footer_link_group {
   margin-top: 32px;
   display: flex;
@@ -288,4 +301,138 @@ img {
 /* start footer partner wrap 
 *********************************/
 .footer_partner_wrap {
+<<<<<<< HEAD
 }
+=======
+  border-top: 1px solid rgba(71,71,71,.1);
+  padding-bottom: 28px;
+}
+.gaming_license h5,
+.ambassador h5,
+.sponsors h5,
+.social_media h5,
+.payment h5,
+.duty h5{
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: .625rem;
+  color: rgba(0,0,0,.8);
+}
+.social_media_item,
+.payment_item,
+.responsible_item{
+  display: flex;
+  justify-content: space-between;
+}
+.responsible_item{
+  max-width: 120px;
+}
+.responsible_item img{
+  opacity: .5;
+  max-width: 24px;
+  margin: auto;
+  filter: saturate(0) brightness(90%) contrast(50%);
+}
+.social_media_item img:hover,
+.payment_item img:hover,
+.responsible_item img:hover{
+  filter: none;
+  opacity: 1;
+}
+.payment_item{
+  max-width: 478px;
+}
+.payment_item img{
+  max-width: 58px;
+  margin: auto;
+}
+.social_media_item img,
+.payment_item img{
+  opacity: .5;
+  filter: saturate(0) brightness(90%) contrast(50%);
+}
+.payment_item img:nth-child(3){
+  opacity: 0 !important;
+}
+.social_media_item{
+  max-width: 270px;
+}
+.social_media_item img{
+  max-width: 24px;
+}
+
+/* start footer license css
+*******************************/
+.footer_license{
+  border-top: 1px solid rgba(71,71,71,.1);
+  margin-bottom: 28px;
+}
+.footer_license_item{
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.sponsors_item {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 44px;
+}
+.sponsors ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsors ul li img {
+  max-width: 49px;
+}
+.ambassador ul li{
+  display: block;
+  font-weight: 600;
+  font-size: .875rem;
+}
+.gaming_license img{
+  width: auto;
+  height: 3.125rem;
+}
+
+/* start footer logo wrap 
+*******************************/
+.footer_logo_wrap{
+  border-top: 1px solid rgba(71,71,71,.1);
+}
+.footer_logo_item{
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_logo img{
+  max-width: 154px;
+}
+.link_wrap{
+  max-width: 500px;
+}
+.link_wrap ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0.3125rem;
+}
+.link_wrap ul li a{
+  padding: 0 0.9375rem;
+  border-right: 1px solid rgba(71,71,71,.2);
+  font-size: 14px;
+  line-height: 20px;
+  color: #176cbc;
+}
+.link_wrap ul li a:hover{
+  color: #444;
+}
+.link_wrap p{
+  text-align: end;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(71,71,71,.9);
+}
+>>>>>>> d85e4af9106756994df84a8a9e15685e8fc2219b
