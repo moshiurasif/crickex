@@ -335,6 +335,9 @@ img {
   max-width: 58px;
   margin: auto;
 }
+.payment_rocket img{
+  max-width: 40px;
+}
 .social_media_item img,
 .payment_item img{
   opacity: .5;
