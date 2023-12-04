@@ -95,7 +95,7 @@ img {
 *************************/
 .login_wrap {
   background: #005dab;
-  padding: 20px 0;
+  padding: 22px 0;
 }
 .header_inner {
   display: flex;
@@ -168,11 +168,12 @@ img {
 }
 .nav_inner li a {
   color: #fff;
-  padding: 9px 62px;
+  padding: 10px 62px;
   display: inline-block;
   border-bottom: 2px solid #1a79d3;
   transition: all 0.3s ease-in-out;
   position: relative;
+  column-gap: 4px;
 }
 .nav_inner li a::before {
   content: "";
@@ -499,19 +500,19 @@ img {
   box-shadow: none;
   border: 1px solid rgba(26,121,211,.5);
 }
-.login_modal .loginBtn{
+.loginBtn_1 .loginBtn{
   padding: 10px;
   width: 100%;
   border: none;
-  background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
-  background-position: 50%0;
+  background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%) !important;
+  background-position: 50%;
   background-size: 200%;
   box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
   color: #fff;
 }
-.login_modal .loginBtn:hover{
+.loginBtn_1 .loginBtn:hover{
   background-position: 0 0;
-  background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
+  background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%) !important;
   box-shadow: 0 2px 2px 1px rgba(6,8,15,.1),0 4px 4px 1px rgba(6,8,15,.1),0 8px 8px 1px rgba(6,8,15,.1),0 16px 16px 1px rgba(6,8,15,.1),0 32px 32px 1px rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
   color: #fff;
   text-shadow: 0 1px 3px #3b791c;
@@ -526,4 +527,102 @@ img {
 .login_modal .SignUpNow{
   margin-top: 18px;
   margin-bottom: 6px;
+}
+
+/* start register form area 
+*********************************/
+.register_area{
+  padding: 1.8rem 0 3.4375rem 0;
+  background: #ededed;
+}
+.register_wrap{
+  padding: 1.875rem;
+  border-width: 0.375rem;
+  border: .4rem solid #005dab;
+}
+.register_notice p{
+  text-align: right;
+  color: #474747;
+  font-size: .875rem;
+  margin: 0 8px 4px 0;
+}
+.register_notice a{
+  color: red;
+}
+.register_tab{
+  padding: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  color: #005dab;
+  border-bottom: 1px solid #005dab;
+}
+.general_register{
+  margin-top: 1.25rem;
+}
+.general_register label{
+  color: #005dab;
+}
+
+.general_register .form-group input {
+  font-size: 14px;
+  width: 100%;
+  padding: 1.3rem .6875rem;
+  border: .125rem solid transparent;
+  border-radius: 3px;
+  background: rgba(51,51,51,.1);
+  color: #474747;
+  outline: none;
+}
+.general_register .form-group input:focus{
+  border: 0.125rem solid #005dab;
+  background: 0;
+  box-shadow: none;
+}
+.general_register .form-group input::placeholder{
+  color: #aaa;
+}
+.general_register .form-group:nth-child(2){
+  margin-bottom: .4rem;
+}
+.password_condition p{
+  color: #999;
+  line-height: 1.2;
+  font-size: .75rem;
+}
+.regosterSelect li select{
+  width: 100%;
+  font-size: 14px;
+  width: 100%;
+  padding: .8rem .6875rem;
+  border: .125rem solid transparent;
+  border-radius: 3px;
+  background: rgba(51,51,51,.1);
+  color: #474747;
+  outline: none;
+}
+.btn_box{
+  float: right;
+  font-size: 44px;
+  color: #005dab;
+  display: block;
+  transition: all .3s ease;
+}
+.btn_box:hover{
+color: #004178;
+}
+.register_banner{
+  position: relative;
+  z-index: 1;
+}
+.register_banner::after{
+    content: "";
+    position: absolute;
+    top: .9rem;
+    left: -.9375rem;
+    width: 100%;
+    height: 100%;
+    border: .1875rem solid rgba(26,121,211,.2);
+    border-radius: 3px;
+    z-index: -1;
 }
