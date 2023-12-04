@@ -626,3 +626,10 @@ color: #004178;
     border-radius: 3px;
     z-index: -1;
 }
+
+/* start promotion nav area css 
+************************************/
+.promotion_nav_area{
+  padding: 0.75rem 0;
+  background: #509fe9;
+}
