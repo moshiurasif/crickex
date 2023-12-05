@@ -509,6 +509,7 @@ img {
   background-size: 200%;
   box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
   color: #fff;
+  border-radius: 4px;
 }
 .loginBtn_1 .loginBtn:hover{
   background-position: 0 0;
@@ -627,9 +628,112 @@ color: #004178;
     z-index: -1;
 }
 
-/* start promotion nav area css 
+/* start promotion nav css 
 ************************************/
-.promotion_nav_area{
-  padding: 0.75rem 0;
+.promotion_nav{
+  padding: 0.9rem 0;
   background: #509fe9;
+}
+.promotion_nav ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.promotion_nav ul li a{
+  border-radius: 20px;
+  font-size: 14px;
+}
+.btnSame{
+  color: #fff;
+  padding: 8px 30px;
+  display: block;
+  background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
+  background-position: 50%0;
+  background-size: 200%;
+  box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+  transition: all 360ms ease;
+}
+.btnSame:hover{
+  color: #fff;
+  background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
+  background-position: 50%0;
+  box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+  color: #fff;
+  text-shadow: 0 1px 3px #3b791c;
+}
+.btnSame.active{
+  padding: 6px 28px;
+  background-size: 200%;
+  border: 2px solid #d1e6c6;
+  text-shadow: 0 1px 3px #3b791c;
+}
+
+/* start promotion card wrap css
+**************************************/
+.promotion_card_wrap{
+  background: #ededed;
+  padding: 0.75rem 0;
+}
+.promotion_contain{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 12px;
+}
+.product_item{
+  max-width: 600px;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+}
+.explanation_wrap{
+  padding: 0.4375rem 0.75rem 0.625rem;
+  background: #fff;
+}
+.explanation_heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.explanation_heading h3{
+  margin: 8px 0;
+  font-size: 22px;
+  color: #1a79d3;
+}
+.explanation_heading span{
+  font-size: 12px;
+  line-height: 20px;
+  padding: .125rem .4375rem;
+  border: 1px solid #1a79d3;
+  border-radius: 2px;
+  color: #1a79d3;
+}
+.explanation_wrap .text{
+  color: #888;
+  margin-bottom: .1875rem;
+}
+.explanation_wrap img{
+  width: 0.9375rem;
+  height: 0.9375rem;
+  color: #888;
+  margin-right: 0.3125rem;
+}
+.explanation_wrap .time{
+  font-size: 12px;
+  letter-spacing: .5px;
+  color: #888;
+  margin-bottom: 0.625rem;
+}
+.explanation_btn {
+  max-width: 254px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 4px;
+}
+.explanation_btn .btnSame{
+  border-radius: .23rem;
+}
+.explanation_btn .btnSame:hover{
+  box-shadow: 0 2px 2px 1px rgba(6,8,15,.1),0 4px 4px 1px rgba(6,8,15,.1),0 8px 8px 1px rgba(6,8,15,.1),0 16px 16px 1px rgba(6,8,15,.1),0 32px 32px 1px rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
 }
