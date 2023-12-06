@@ -751,8 +751,13 @@ color: #004178;
 /* start lottery nav css
 ***************************/
 .lottery_nav{
-  padding: 10px 0;
+  /* padding: 10px 0; */
   background: #fff;
+}
+.lottery_nav_wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .left_lottery_item {
   max-width: 230px;
@@ -770,3 +775,49 @@ color: #004178;
 .left_lottery_item .form-group {
   margin-bottom: 0rem;
 }
+.left_lottery_item .form-group input{
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  padding: .4375rem .625rem;
+  border-radius: 5px;
+  border-color: transparent;
+  outline: 0;
+  background: #f2f2f2;
+  box-shadow: 0 .125rem .3125rem #e6e6e6 inset;
+  color: #1a79d3;
+  letter-spacing: 1px;
+  opacity: .7;
+}
+.left_lottery_item .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: none;
+}
+.right_lottery_item ul{
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+.right_lottery_item ul li{
+  color: rgba(0,0,0,.7);;
+}
+.right_lottery_item ul li a{
+  cursor: pointer;
+  display: inline-block;
+}
+.btn_sort{
+  padding: 18px 10px 16px 10px;
+  border-bottom: .1875rem solid transparent;
+  transition: all .6s ease;
+}
+.btn_sort.active,
+.btn_sort:hover{
+  color: #1a79d3 !important;
+  border-bottom: .1875rem solid #1a79d3;
+}
+
