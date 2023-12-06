@@ -748,10 +748,9 @@ color: #004178;
   height: 350px;
 }
 
-/* start lottery nav css
-***************************/
-.lottery_nav{
-  /* padding: 10px 0; */
+/* start lottery filter nav css
+**********************************/
+.lottery_filter_nav{
   background: #fff;
 }
 .lottery_nav_wrap{
@@ -821,3 +820,72 @@ color: #004178;
   border-bottom: .1875rem solid #1a79d3;
 }
 
+/* start lottery subnav css
+*****************************/
+.lottery_subnav{
+  padding: 10px;
+  background: linear-gradient(0deg,#005dab,#004f92 100%);
+}
+
+/* start lottery game css
+****************************/
+.lottery_game{
+  padding: 20px 0;
+  background: #ededed;
+}
+.lottery_game_inner{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: .75rem .75rem;
+}
+.lottery_game_item{
+  max-width: 230px;
+  height: auto;
+}
+.game_img{
+  position: relative;
+}
+.game_text{
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  opacity: 1;
+  transition: all .6s ease;
+}
+.game_text h4 {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 20px 16px 10px 16px;
+  z-index: 2;
+  background: linear-gradient(0deg,rgb(48 46 46 / 50%) 50%,transparent 100%);
+}
+.game_box{
+  width: 100%;
+  bottom: 0;
+  height: 3.375rem;
+  background-image: linear-gradient(0deg,rgba(0,93,171,.5) 2%,transparent 100%);
+}
+.game_button{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s ease;
+}
+.game_button:hover{
+  opacity: 1;
+}
+.game_button > *{
+  transform: translateY(80px);
+}
+.game_button:hover > *{
+  transform: translateY(0px);
+}
