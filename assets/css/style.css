@@ -241,6 +241,74 @@ img {
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
 }
+.mega_box{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 100%;
+    background: rgba(0,79,146,.9);
+    opacity: 0;
+    visibility: hidden;
+}
+.nav_inner li:hover .mega_box{
+  top: 144px;
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s ease;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 1050px;
+  margin: auto;
+}
+.mega_box .single_item{
+  position: relative;
+  max-width: 280px;
+  margin: auto;
+  cursor: pointer;
+  position: relative;
+}
+.mega_box .single_item:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(177deg,#3cb100 0,#52ff0047 100%);
+}
+.mega_box .single_item span{
+  display: block;
+  position: relative;
+  z-index: 3;
+  left: 1.5rem;
+  max-width: 100%;
+  margin-top: 1.25rem;
+  padding-left: .75rem;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+.mega_box .single_item span::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  background: #64cc2f;
+}
+
+
+
+
 /* start footer main area 
 ********************************/
 .footer_area{
@@ -782,7 +850,7 @@ color: #004178;
   border-radius: 5px;
   border-color: transparent;
   outline: 0;
-  background: #f2f2f2;
+  background: #dbdbdb;
   box-shadow: 0 .125rem .3125rem #e6e6e6 inset;
   color: #1a79d3;
   letter-spacing: 1px;
@@ -790,7 +858,7 @@ color: #004178;
 }
 .left_lottery_item .form-control:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: #dbdbdb;
   border-color: #80bdff;
   outline: 0;
   box-shadow: none;
