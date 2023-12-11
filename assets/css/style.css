@@ -891,8 +891,29 @@ color: #004178;
 /* start lottery subnav css
 *****************************/
 .lottery_subnav{
-  padding: 10px;
+  padding-bottom: 8px;
   background: linear-gradient(0deg,#005dab,#004f92 100%);
+}
+.lottery_nav_provide{
+  color: #fff;
+  padding: 7px 16px;
+  background: rgba(255,255,255,.2);
+  display: flex;
+  justify-content: space-between;
+}
+.lottery_nav_provide h6{
+  font-size: 14px;
+}
+.lottery_subnav_wrap{
+  padding: 10px 16px;
+  background: #004f92;
+}
+.provide_btn{
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 0  0 5px 5px;
+  background: linear-gradient(180deg,#509fe9 0,#176cbc 100%);
 }
 
 /* start lottery game css
