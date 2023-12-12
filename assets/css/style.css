@@ -978,3 +978,63 @@ color: #004178;
 .game_button:hover > *{
   transform: translateY(0px);
 }
+
+/* start casino css 
+**************************/
+.casino_card{
+  padding: 20px 0;
+}
+.casino_card_contain{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+.single_casino_card{
+  max-width: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.1),inset 0 0 10px 0 rgba(255,255,255,.1);
+}
+.single_casino_card:hover{
+  box-shadow: 0 2px 2px 1px rgba(6,8,15,.1),0 4px 4px 1px rgba(6,8,15,.1),0 8px 8px 1px rgba(6,8,15,.1),0 16px 16px 1px rgba(6,8,15,.1),0 32px 32px 1px rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+}
+.casino_img img{
+  width: 100%;
+  height: 100%;
+  transition: all 360ms ease;
+}
+.casino_img img:hover{
+  width: 110%;
+  height: 110%;
+}
+.casino_contain{
+  max-width: 230px;
+  padding: 20px 16px;
+  background: linear-gradient(0deg,#fff 0,#e0e0e0 100%);
+}
+.casino_contain h3{
+  font-size: 22px;
+  line-height: 40px;
+  position: relative;
+  margin-top: -0.625rem;
+  color: #005dab;
+}
+.casino_contain h4{
+  font-size: 14px;
+  margin: 10px 0;
+  color: red;
+}
+.casino_contain p{
+  font-size: 14px;
+  margin: 15px 0 12px 0;
+  color: rgba(71,71,71,.8);
+}
+.casino_contain .btnSame{
+  text-align: center;
+  border-radius: 4px;
+}
+.casino_contain .btnSame:hover{
+  box-shadow: 0 2px 2px 1px rgba(6,8,15,.1),0 4px 4px 1px rgba(6,8,15,.1),0 8px 8px 1px rgba(6,8,15,.1),0 16px 16px 1px rgba(6,8,15,.1),0 32px 32px 1px rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+}
