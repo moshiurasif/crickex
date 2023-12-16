@@ -1,0 +1,80 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    .main_manu_area,
+    .footer_wrap,
+    .duty,
+    .footer_logo_wrap,
+    .login_wrap,
+    .status-wrap {
+        display: none;
+    }
+    .login_wrap_mobil, .login_wrap {
+        padding: 10px 0;
+    }
+    .link_wrap ul {
+        justify-content: flex-start;
+        color: #005dac;
+    }
+    .footer_license_item {
+        flex-direction: column;
+    }
+    .gaming_license {
+        margin-top: 40px;
+    }
+    .social_media_item img, .payment_item img {
+        filter: none;
+        opacity: 1;
+    }
+    .social_media {
+        margin-top: 20px;
+    }
+    .gaming_license h5,
+    .ambassador h5,
+    .sponsors h5,
+    .social_media h5,
+    .payment h5,
+    .duty h5{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: .625rem;
+    color: #555;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_logo img {
+        max-width: 110px;
+    }
+    .link_wrap ul{
+        margin-bottom: 0;
+    }
+    .footer_logo_item {
+        max-width: 420px;
+    }
+    .sponsors_item {
+        max-width: 350px;
+        column-gap: 44px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer_logo img {
+        max-width: 80px;
+    }
+    .gaming_license img {
+        height: 2.125rem;
+    }
+    .sponsors ul li img {
+        max-width: 40px;
+    }
+}
+@media (max-width: 450px) {
+    .link_wrap p {
+        text-align: end;
+        font-size: 11px;
+    }
+}
