@@ -2,7 +2,7 @@
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .promotion_nav,
     .explanation_heading span,
     .main_manu_area,
@@ -74,6 +74,18 @@
     .btnSame_2 {
         background: #005dac;
     }
+    .btnSame_2:hover{
+        color: #fff;
+        background: #034f91;
+        background-position: 50%0;
+        box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+        text-shadow: 0 1px 3px #3b791c;
+    }
+    /* lottery */
+    .lottery_game_inner {
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -93,6 +105,10 @@
     /* promotions css */
     .explanation_btn .btnSame{
         font-size: 14px;
+    }
+    /* lottery */
+    .lottery_game_inner {
+        grid-template-columns: repeat(2,1fr);
     }
     
 }
@@ -116,5 +132,14 @@
     /* promotions css */
     .btnSame {
         padding: 6px 10px;
+    }
+    /* lottery */
+}
+@media (max-width: 367px){
+    .footer_logo img {
+        max-width: 55px;
+    }
+    .link_wrap p {
+        font-size: 10px;
     }
 }

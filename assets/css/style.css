@@ -731,18 +731,19 @@ color: #004178;
 
 /* start promotion nav css 
 ************************************/
-.promotion_nav{
+.promotion_area{
   padding: 0.9rem 0;
   background: #509fe9;
 }
-.promotion_nav ul{
+/* .promotion_nav ul{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 .promotion_nav ul li a{
   border-radius: 20px;
   font-size: 14px;
+  text-align: center;
 }
 .btnSame{
   color: #fff;
@@ -759,7 +760,6 @@ color: #004178;
   background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
   background-position: 50%0;
   box-shadow: 0 5px 10px 0 rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
-  color: #fff;
   text-shadow: 0 1px 3px #3b791c;
 }
 .btnSame.active{
