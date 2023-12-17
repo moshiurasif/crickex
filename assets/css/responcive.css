@@ -3,6 +3,8 @@
 @media (max-width: 1200px) {}
 
 @media (max-width: 992px) {
+    .promotion_nav,
+    .explanation_heading span,
     .main_manu_area,
     .footer_wrap,
     .duty,
@@ -43,6 +45,35 @@
     margin-bottom: .625rem;
     color: #555;
     }
+    /* promotions css */
+    .promotion_contain {
+        grid-template-columns: repeat(1,1fr);
+        gap: 12px;
+    }
+    .product_item {
+        margin: auto;
+    }
+    .explanation_heading h3 {
+        margin: 8px 0;
+        font-size: 20px;
+        color: #000000;
+    }
+    .explanation_wrap .time,
+    .explanation_wrap .text {
+        color: #000;
+    }
+    .explanation_btn .btnSame{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .explanation_btn {
+        max-width: 100%;
+        column-gap: 14px;
+    }
+    .btnSame_2 {
+        background: #005dac;
+    }
 }
 
 @media (max-width: 768px) {
@@ -59,6 +90,11 @@
         max-width: 350px;
         column-gap: 44px;
     }
+    /* promotions css */
+    .explanation_btn .btnSame{
+        font-size: 14px;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -76,5 +112,9 @@
     .link_wrap p {
         text-align: end;
         font-size: 11px;
+    }
+    /* promotions css */
+    .btnSame {
+        padding: 6px 10px;
     }
 }

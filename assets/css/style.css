@@ -768,7 +768,18 @@ color: #004178;
   border: 2px solid #d1e6c6;
   text-shadow: 0 1px 3px #3b791c;
 }
-
+.itembox{
+  position: relative;
+}
+.itembox::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 20px;
+  background: url(../images/promotions/promotion-bg.svg) no-repeat scroll center center / cover;
+}
 /* start promotion card wrap css
 **************************************/
 .promotion_card_wrap{
@@ -1124,3 +1135,4 @@ color: #004178;
   color: #fff;
   background: #005dac;
 }
+
