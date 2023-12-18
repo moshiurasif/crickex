@@ -188,13 +188,22 @@ img {
 .main_manu_area {
   background: #1a79d3;
 }
-.nav_inner {
+.main_nav {
   display: flex;
-  justify-content: space-between;
+}
+.nav_inner{
+  display: flex;
+  width: 100%;
+}
+.nav_inner li{
+  width: 100%;
 }
 .nav_inner li a {
   color: #fff;
-  padding: 10px 62px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
   display: inline-block;
   border-bottom: 2px solid #1a79d3;
   transition: all 0.3s ease-in-out;
@@ -238,11 +247,8 @@ img {
   font-size: 10px;
 }
 .main_sub_nav ul {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-}
-.main_nav {
-  display: flex;
 }
 .main_sub_nav ul li a {
   color: #ffffff;
@@ -937,7 +943,7 @@ color: #004178;
 .lottery_nav_provide{
   display: none;
   color: #fff;
-  padding: 7px 16px;
+  padding: 6px 16px;
   background: rgba(255,255,255,.2);
 }
 .lottery_provide_btn{
