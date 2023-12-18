@@ -1100,39 +1100,65 @@ color: #004178;
 
 /* start mobile bottom nav 
 ********************************/
+.mobile_bottom_nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
 .bottom_manu{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.bottomf_login_btn,
+.bottom_signup_btn,
+.single_bottom_item{
+  width: 33.33333333333333%;
+}
 .single_bottom_item a{
-  display: flex;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
   gap: 6px;
   padding: 10px;
   background: #d7e3f0;
 }
-.bottom_menu_text p{
-  max-width: 100px;
+.single_bottom_item a img{
+  max-width: 30px;
+  width: 100%;
+  height: auto;
+}
+.bottom_menu_text a span{
   color: #333;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
   text-align: left;
 }
-.bottom_menu_img{
-  width: 30px;
-}
 .signup_btn{
-  padding: 20px 70px;
+  width: 100%;
+  display: inline-block;
   font-size: 20px;
   color: #000;
   background: #fff;
+  padding: 16px;
+  text-align: center;
 }
 .login_btn{
-  padding: 20px 70px;
+  width: 100%;
+  display: inline-block;
   font-size: 20px;
   color: #fff;
   background: #005dac;
+  padding: 16px;
+  text-align: center;
 }
+.login_btn:hover{
+  color: #ffffff;
+}
+
 

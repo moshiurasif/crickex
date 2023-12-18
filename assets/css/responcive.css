@@ -45,6 +45,12 @@
     margin-bottom: .625rem;
     color: #555;
     }
+    .container-fluid{
+        padding: 0;
+    }
+    .footer_area{
+        margin-bottom: 60px;
+    }
     /* promotions css */
     .promotion_contain {
         grid-template-columns: repeat(1,1fr);
@@ -102,6 +108,18 @@
         max-width: 350px;
         column-gap: 44px;
     }
+    .signup_btn {
+        font-size: 18px;
+        padding: 16px;
+    }
+    .login_btn {
+        font-size: 18px;
+        padding: 16px;
+    }
+    .single_bottom_item a{
+        padding: 8px;
+      }
+    
     /* promotions css */
     .explanation_btn .btnSame{
         font-size: 14px;
@@ -110,6 +128,7 @@
     .lottery_game_inner {
         grid-template-columns: repeat(2,1fr);
     }
+    
     
 }
 
@@ -128,6 +147,9 @@
     .link_wrap p {
         text-align: end;
         font-size: 11px;
+    }
+    .footer_area{
+        margin-bottom: 40px;
     }
     /* promotions css */
     .btnSame {
