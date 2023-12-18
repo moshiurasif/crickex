@@ -132,7 +132,10 @@
     .lottery_game_inner {
         grid-template-columns: repeat(2,1fr);
     }
-    
+    /* slider-section */
+    .slider_section_2{
+        display: none;
+    }
     
 }
 
