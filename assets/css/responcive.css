@@ -92,6 +92,10 @@
         grid-template-columns: repeat(4,1fr);
         align-items: center;
     }
+    /* casino */
+    .casino_card_contain {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -155,7 +159,10 @@
     .btnSame {
         padding: 6px 10px;
     }
-    /* lottery */
+    /* casino */
+    .casino_contain {
+        max-width: 210px;
+    }
 }
 @media (max-width: 367px){
     .footer_logo img {
@@ -163,5 +170,9 @@
     }
     .link_wrap p {
         font-size: 10px;
+    }
+    .casino_contain {
+        padding: 18px 10px;
+        max-width: 158px;
     }
 }

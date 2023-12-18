@@ -754,7 +754,8 @@ color: #004178;
 .btnSame{
   color: #fff;
   padding: 8px 30px;
-  display: block;
+  display: inline-block;
+  /* display: block; */
   background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
   background-position: 50%0;
   background-size: 200%;
@@ -1089,6 +1090,7 @@ color: #004178;
 }
 .single_casino_card{
   max-width: 550px;
+  margin: auto;
   display: flex;
   justify-content: space-evenly;
   border-radius: 4px;
