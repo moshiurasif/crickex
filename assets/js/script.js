@@ -17,4 +17,16 @@ $(document).ready(function(){
         // next arrow
         nextArrow: '<i class="fa-solid fa-arrow-right slick-next"></i>',
     });
+
+    // lottery button heid
+    $('.show_filter').click(function(){
+        $('.lottery_nav_provide').show();
+        $('.lottery_provide_btn').show();
+        $('.lottery_item_box2').hide();
+    })
+    $('.lottery_provide_btn').click(function(){
+        $('.lottery_item_box2').show();
+        $('.lottery_provide_btn').hide();
+        $('.lottery_nav_provide').hide();
+    })
 });
