@@ -1219,7 +1219,7 @@ color: #004178;
 .login_btn:hover{
   color: #ffffff;
 }
-
+/* start mobile menu */
 .menu_image{
   max-width: 30px;
   width: 100%;
@@ -1237,4 +1237,26 @@ color: #004178;
   --bs-offcanvas-box-shadow: var(--bs-box-shadow-sm);
   --bs-offcanvas-transition: transform 0.3s ease-in-out;
   --bs-offcanvas-title-line-height: 1.5;
+}
+
+/* mobile menu slider  */
+.mobil_home_slider{
+  padding: 30px 0 20px 0;
+}
+.MHS_heading {
+  border-left: 4px solid #005dac;
+}
+.MHS_heading h2{
+  margin-bottom: 2.6666666667vw;
+  color: #000c;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.MS_slider h3{
+  background: #fff;
+  padding: 10px;
+  color: #000c;
+  font-size: 20px;
+  border-radius: 0 0 4px 4px;
 }

@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crickex</title>
     <link rel="shortcut icon" href="assets/images/cx-favicon.ico" type="image/x-icon">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- bootstrap cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet"/>
     <!-- slick css -->
     <link rel="stylesheet" href="assets/slick/css/slick.css" />
     <link rel="stylesheet" href="assets/css/slick/style.css" />
@@ -176,7 +176,7 @@
                 <!-- Single Nav item -->
                 <li class="nav-item d-flex gap-2 align-items-center">
                   <img class="menu_image" src="assets/images/menu_img/icon-home.png" alt="">
-                  <a class="nav-link text-dark" href="#">Home</a>
+                  <a class="nav-link text-dark" href="index.html">Home</a>
                 </li>
                 <!-- Single Nav item -->
                 <li class="nav-item d-flex gap-2 align-items-center">
@@ -392,6 +392,58 @@
       </div>
     </div>
     <!-- two column slider end -->
+
+    <!-- start mobile slider home page -->
+    <div class="mobil_home_slider d-lg-none">
+      <div class="container">
+        <div class="MHS_heading">
+          <h2>Featured Games</h2>
+        </div>
+        <div class="swiper card_slider">
+          <div class="swiper-wrapper">
+
+            <!-- swiper slider -->
+            <div class="swiper-slide MS_slider">
+              <div class="img_box">
+                <img src="assets/images/menu_img/HS/1.jpg" alt="">
+              </div>
+              <h3>Cricket Sah 75</h3>
+            </div>
+            <!-- swiper slider -->
+            <div class="swiper-slide MS_slider">
+              <div class="img_box">
+                <img src="assets/images/menu_img/HS/2.jpg" alt="">
+              </div>
+              <h3>CrazySeven</h3>
+            </div>
+            <!-- swiper slider -->
+            <div class="swiper-slide MS_slider">
+              <div class="img_box">
+                <img src="assets/images/menu_img/HS/3.jpg" alt="">
+              </div>
+              <h3>Money Coming</h3>
+            </div>
+            <!-- swiper slider -->
+            <div class="swiper-slide MS_slider">
+              <div class="img_box">
+                <img src="assets/images/menu_img/HS/4.jpg" alt="">
+              </div>
+              <h3>Charge Buffalo</h3>
+            </div>
+            <!-- swiper slider -->
+            <div class="swiper-slide MS_slider">
+              <div class="img_box">
+                <img src="assets/images/menu_img/HS/5.jpg" alt="">
+              </div>
+              <h3>Crazy Hunter</h3>
+            </div>
+
+          </div>
+          <div class="swiper-scrollbar"></div>
+       </div>
+      </div>
+    </div>
+    <!-- end mobile slider home page -->
 
     <!-- start footer main area -->
     <footer class="footer_area">
@@ -700,6 +752,8 @@
     <!-- javascript all links added here -->
     <!-- jquery js -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <!-- slick js -->
     <script src="assets/slick/js/slick.js"></script>
     <!-- bootstrap cdn -->
