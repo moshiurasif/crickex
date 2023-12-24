@@ -1260,3 +1260,53 @@ color: #004178;
   font-size: 20px;
   border-radius: 0 0 4px 4px;
 }
+
+
+/* mobile login */
+.mobile_login{
+  background: #fff;
+}
+.mobil_heading_login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobil_heading_login a{
+  display: inline-block;
+  padding: 14px 20px;
+}
+.mobile_login_body{
+  padding: 30px 0;
+  /* background: #f5f5f5; */
+}
+.MLH_logo{
+  max-width: 150px;
+  margin: auto;
+}
+.MF_btn{
+  float: right;
+}
+.MF_btn a{
+  font-size: 14px;
+  display: inline-block;
+  color: #005dac;
+  padding: 2px 6px;
+  border-radius: 6px;
+  border: 1px solid #005dac;
+}
+.login_from_menu .loginBtn{
+  background: #005dac !important;
+}
+.login_from_menu .loginBtn:hover{
+  background: #004684 !important;
+}
+.mobile_login_body .SignUpNow{
+  text-align: center;
+}
+.ML_sinup{
+  color: #61d81d;
+  text-decoration: underline;
+}
+.ML_heading{
+  padding: 7px;
+}

@@ -96,6 +96,43 @@
     .casino_card_contain {
         grid-template-columns: repeat(1, 1fr);
     }
+        /* vvvvvv*************************************************************** */
+    .slick_heome_slider{
+        padding-top: 50px;
+    }
+    .slick_heome_slider #image-slider img {
+        height: 320px;
+    }
+    .slick-dots li a,
+    .slick-dots li button {
+        width: 26px;
+        height: 1px;
+        transition: box-shadow 0.5s ease-out 0.1s, background 0.3s ease-out 0.1s;
+        border: 0;
+        border-radius: 4%;
+        background: #004178;
+        box-shadow: inset 0 2px 3px 0#002645;
+        text-indent: 99999px;
+        cursor: pointer;
+    }
+    .slick-dots li a:hover,
+    .slick-dots li button:hover {
+        transition: box-shadow 0.3s ease-in, background 0.3s ease-in 0.1s;
+        background: #f2f2f2;
+        cursor: pointer;
+    }
+    #marquee-background {
+        bottom: -2%;
+        background-color: #005dac;
+    }
+    #marquee-text {
+        bottom: -1%;
+        color: rgb(255, 255, 255);
+    }
+    .mr-sound {
+        bottom: 3%;
+        background-color: #fff;
+    }
 }
 
 @media (max-width: 768px) {
@@ -136,7 +173,14 @@
     .slider_section_2{
         display: none;
     }
-    
+    /* vvvvvv*************************************************************** */
+    .slick_heome_slider #image-slider img {
+        height: auto;
+        height: 258px;
+    }
+    .mr-sound {
+        bottom: 4%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -149,6 +193,10 @@
     .sponsors ul li img {
         max-width: 40px;
     }
+        /* vvvvvv*************************************************************** */
+        .slick_heome_slider #image-slider img {
+            height: 188px;
+        }
 }
 @media (max-width: 450px) {
     .link_wrap p {
@@ -165,6 +213,11 @@
     /* casino */
     .casino_contain {
         max-width: 210px;
+    }
+    /* vvvvvv*************************************************************** */
+    .mr-sound {
+        bottom: 6%;
+        background-color: #fff;
     }
 }
 @media (max-width: 367px){
