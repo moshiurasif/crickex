@@ -52,7 +52,7 @@
               <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
             </div>
             <ul class="header_btn_wrap">
-              <li><button data-bs-toggle="modal" data-bs-target="#exampleModalCenter" class="btn_login">Login</button></li>
+              <li><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" class="btn_login">Login</button></li>
               <li><a href="register.html" class="btn_SU">Sign Up</a></li>
             </ul>
           </div>
@@ -674,14 +674,14 @@
         <div class="bottom_manu">
           <!-- single bottom item -->
           <div class="single_bottom_item">
-            <a href="#">
+            <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2">
               <img src="assets/images/BD.png" alt="en" />
               <span><p>BDT <br> English</p></span>
             </a>
           </div>
           <!-- bottom signup btn -->
           <div class="bottom_signup_btn">
-            <a class="signup_btn" href="">Sign up</a>
+            <a class="signup_btn" href="sign_up.html">Sign up</a>
           </div>
           <!-- bottom login btn -->
           <div class="bottomf_login_btn">
@@ -691,6 +691,44 @@
       </div>
     </div>
     <!-- end mobile bottom nav -->
+
+    <!-- start login modal -->
+    <section class="login_modal language_modal">
+      <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Currency and Language</h5>
+              <button type="button" class="close" data-bs-toggle="modal" aria-label="Close">
+                <span><img src="assets/images/cancel.svg" alt=""></span>
+              </button>
+            </div>
+            <div class="modal-body">
+
+              <form action="">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Username</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group text-right">
+                  <a href="#">Forgot password?</a>
+                </div>
+                <div class="loginBtn_1">
+                  <button type="submit" class="loginBtn">Login now</button>
+                </div>
+                <p class="SignUpNow">Do not have an account? <a href="register.html">Sign Up now!</a></p>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end login modal -->
 
     <!-- start login modal -->
     <section class="login_modal">

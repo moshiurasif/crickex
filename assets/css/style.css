@@ -554,7 +554,7 @@ img {
   opacity: 1;
 }
 .login_modal .modal-header .close {
-  padding: 1rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   margin: -0.9rem -1.4rem -1rem auto;
   border-radius: 0 5px 0 0;
   border: none;
@@ -1316,4 +1316,23 @@ color: #004178;
 .ML_sinup{
   color: #61d81d;
   text-decoration: underline;
+}
+/* sign up */
+.login_from_menu .form-group label{
+  font-size: 16px;
+}
+.login_from_menu .form-group ::placeholder{
+  color: #00000080;
+}
+.login_from_menu .form-group input{
+  color: #007efc;
+}
+.su_form_text p{
+  width: 94%;
+  margin: auto;
+  color: #00000080;
+  line-height: 18px;
+}
+.login_from_menu .form-select {
+  color: #007efc;
 }
