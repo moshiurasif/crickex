@@ -29,34 +29,10 @@ $(document).ready(function(){
         $('.lottery_provide_btn').hide();
         $('.lottery_nav_provide').hide();
     })
-    // Swiper slider
-    // var swiper = new Swiper(".card_slider", {
-    //     slidesPerView: 3,
-    //     spaceBetween: 30,
-    //     pagination: {
-    //       el: ".swiper-pagination",
-    //       clickable: true,
-    //     },
-    // });
-
-    // let swiperCards = new Swiper('.card_slider', {
-    //     loop: true,
-      
-    //     pagination: {
-    //       el: '.swiper-pagination',
-    //     },
-      
-    //     navigation: {
-    //       nextEl: '.swiper-button-next',
-    //       prevEl: '.swiper-button-prev',
-    //     },
-    // });
-});
-
-/*=============== SWIPER JS ===============*/
+    /*=============== SWIPER JS ===============*/
 var swiper = new Swiper(".card_slider", {
     slidesPerView: 2,
-    spaceBetween: 30,
+    spaceBetween: 15,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -66,3 +42,5 @@ var swiper = new Swiper(".card_slider", {
         hide: true,
     },
   });
+});
+

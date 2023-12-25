@@ -52,7 +52,7 @@
               <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
             </div>
             <ul class="header_btn_wrap">
-              <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter" class="btn_login">Login</a></li>
+              <li><button data-bs-toggle="modal" data-bs-target="#exampleModalCenter" class="btn_login">Login</button></li>
               <li><a href="register.html" class="btn_SU">Sign Up</a></li>
             </ul>
           </div>
@@ -2561,13 +2561,13 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalCenterTitle">Welcome to CRICKEX</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-bs-toggle="modal" aria-label="Close">
                 <span><img src="assets/images/cancel.svg" alt=""></span>
               </button>
             </div>
             <div class="modal-body">
 
-              <form>
+              <form action="">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Username</label>
                   <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username">
@@ -2582,7 +2582,7 @@
                 <div class="loginBtn_1">
                   <button type="submit" class="loginBtn">Login now</button>
                 </div>
-                <p class="SignUpNow">Do not have an account? <a href="#">Sign Up now!</a></p>
+                <p class="SignUpNow">Do not have an account? <a href="register.html">Sign Up now!</a></p>
               </form>
 
             </div>
