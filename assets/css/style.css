@@ -745,21 +745,15 @@ color: #004178;
   padding: 0.9rem 0;
   background: #509fe9;
 }
-/* .promotion_nav ul{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
-.promotion_nav ul li a{
+/* .promotion_nav ul li a{
   border-radius: 20px;
   font-size: 14px;
   text-align: center;
-}
+} */
 .btnSame{
   color: #fff;
   padding: 8px 30px;
   display: inline-block;
-  /* display: block; */
   background: linear-gradient(to right,#64cc2f 0,#82d856 15%,#82d856 30%,#64cc2f 55%,#64cc2f 100%);
   background-position: 50%0;
   background-size: 200%;

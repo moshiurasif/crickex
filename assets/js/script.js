@@ -29,18 +29,26 @@ $(document).ready(function(){
         $('.lottery_provide_btn').hide();
         $('.lottery_nav_provide').hide();
     })
-    /*=============== SWIPER JS ===============*/
-var swiper = new Swiper(".card_slider", {
-    slidesPerView: 2,
-    spaceBetween: 15,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
-    },
-  });
+    
+    // SWIPER JS mobile device index
+    var swiper = new Swiper(".card_slider", {
+        slidesPerView: 2,
+        spaceBetween: 15,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: true,
+        },
+    });
 });
 
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "6",
+    // scrollbar: {
+    //   el: ".swiper-scrollbar",
+    //   hide: true,
+    // },
+});
