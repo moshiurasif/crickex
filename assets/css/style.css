@@ -158,6 +158,9 @@ img {
   text-shadow: 0 1px 3px #3b791c;
 }
 /* mobile */
+.bg_custom_color{
+  background: #005dac;
+}
 .mobile_menu_icon{
   font-size: 20px;
   color: #fff;
@@ -961,12 +964,21 @@ color: #004178;
   align-items: center;
   background: #004f92;
 }
-.lottery_item_box {
-  margin-left: 16px;
-  padding: 10px;
+.list-group-item.li_box {
+  padding: 10px 60px 10px 10px;
 }
-.lottery_item_box2{
-  text-align: right;
+.list-group-item.li_box:hover{
+  background-image: url(../images/menu_img/icon-arcade.png);
+  background: rgb(191 190 125 / 83%);
+}
+.lottery_item_box .form-check-input:checked {
+  box-shadow: none;
+  border: none;
+  background-color: rgb(191 190 125 / 83%);
+  border-color: rgb(191 190 125 / 83%);
+}
+.lottery_item_box .form-check-input:focus{
+  box-shadow: none;
 }
 .show_filter{
   padding: 10px;
@@ -1305,6 +1317,10 @@ color: #004178;
   text-decoration: underline;
 }
 /* forgot password */
+.forgot_P_sms,
+.forgot_P_email{
+  margin-top: 100px;
+}
 .forgot_password{
   color: #fff;
   background: #005dac;
@@ -1398,4 +1414,37 @@ color: #004178;
   width: 25px;
 }
 
-
+/* about arta */
+.text_24{
+  margin-bottom: 2.5rem;
+  color: #1a79d3;
+  font-size: 1.70rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 2.1875rem;
+}
+.text_20{
+  color: #1a79d3;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.1875rem;
+}
+.text_14{
+  margin-bottom: 1.25rem;
+  color: rgba(0,0,0,.6);
+  font-size: .875rem;
+  line-height: 1.6;
+}
+.text_14 a{
+  margin-bottom: 1.25rem;
+  color: #1a79d3;
+  font-size: .875rem;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+.about_list li{
+  margin-bottom: 1.25rem;
+  color: rgba(0,0,0,.6);
+  font-size: .875rem;
+  line-height: 1.6;
+}

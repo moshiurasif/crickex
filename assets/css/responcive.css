@@ -214,6 +214,21 @@
     .casino_contain {
         max-width: 210px;
     }
+    .single_bottom_item span p{
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+    .signup_btn {
+        font-size: 14px;
+        padding: 13px;
+        font-weight: 600;
+    }
+    .login_btn {
+        font-size: 14px;
+        padding: 13px;
+        font-weight: 600;
+    }
     /* vvvvvv*************************************************************** */
     .mr-sound {
         bottom: 6%;

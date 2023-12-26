@@ -34,6 +34,7 @@ $(document).ready(function(){
     $('.forgot_btn_1').click(function(){
         $('.forgot_P_email').show('.active');
         $('.forgot_P_sms').hide();
+
     })
     // forgot password sms
     $('.forgot_btn_2').click(function(){
