@@ -1265,15 +1265,8 @@ color: #004178;
 .mobile_login{
   background: #fff;
 }
-.MM_top{
-  padding: 10px 0;
-}
-.mobil_heading_login{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .mobil_heading_login a{
+  padding: 10px;
   font-size: 20px;
   display: inline-block;
 }
@@ -1310,6 +1303,38 @@ color: #004178;
 .ML_sinup{
   color: #61d81d;
   text-decoration: underline;
+}
+/* forgot password */
+.forgot_password{
+  color: #fff;
+  background: #005dac;
+}
+.forgot_p_btn{
+  text-align: center;
+}
+.forgot_btn_1{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  display: block;
+  border-bottom: 3px solid transparent;
+}
+.forgot_btn_2{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  display: block;
+  border-bottom: 3px solid transparent;
+}
+.forgot_p_btn .active{
+  color: #ffe800 !important;
+  border-bottom: 3px solid #ffe800;
+}
+.FP_heading{
+  font-size: 16px;
+}
+.forgot_P_sms{
+  display: none;
 }
 /* sign up */
 .login_from_menu .form-group label{
@@ -1372,3 +1397,5 @@ color: #004178;
 .mobile_lan_item img{
   width: 25px;
 }
+
+

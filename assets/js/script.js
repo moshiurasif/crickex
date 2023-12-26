@@ -29,6 +29,17 @@ $(document).ready(function(){
         $('.lottery_provide_btn').hide();
         $('.lottery_nav_provide').hide();
     })
+
+    // forgot password email
+    $('.forgot_btn_1').click(function(){
+        $('.forgot_P_email').show('.active');
+        $('.forgot_P_sms').hide();
+    })
+    // forgot password sms
+    $('.forgot_btn_2').click(function(){
+        $('.forgot_P_sms').show('.active');
+        $('.forgot_P_email').hide();
+    })
     
     // SWIPER JS mobile device index
     var swiper = new Swiper(".card_slider", {
