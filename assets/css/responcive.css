@@ -133,6 +133,16 @@
         bottom: 3%;
         background-color: #fff;
     }
+    /* start lottery area css */
+    .lottery_area {
+        margin-top: 58px;
+    }
+    .lottery_area img {
+        height: 260px;
+    }
+    .promotion_area {
+        margin-top: 58px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -181,6 +191,9 @@
     .mr-sound {
         bottom: 4%;
     }
+    .lottery_area img {
+        height: 200px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -228,6 +241,9 @@
         font-size: 14px;
         padding: 13px;
         font-weight: 600;
+    }
+    .lottery_area img {
+        height: 160px;
     }
     /* vvvvvv*************************************************************** */
     .mr-sound {
